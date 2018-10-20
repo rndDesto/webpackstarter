@@ -1,0 +1,32 @@
+{
+  "name": "webpack6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --hot --port 8200",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+    "node-sass": "^4.9.3",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
