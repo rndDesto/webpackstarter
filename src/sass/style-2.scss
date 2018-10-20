@@ -1,6 +1,0 @@
-@import 'reset';
-
-.box { @include transform(rotate(30deg)); }
-p {
-    color: red;
-}
